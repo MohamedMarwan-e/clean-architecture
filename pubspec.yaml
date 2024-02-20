@@ -1,0 +1,54 @@
+name: movie_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # User Interface
+  cupertino_icons: ^1.0.2  # Icon library for iOS-styled icons.
+
+  # State Management
+  flutter_bloc: ^8.1.4  # Implementation of the BLoC (Business Logic Component) pattern for state management in Flutter.
+
+  # Networking
+  dio: ^5.4.1  # A powerful HTTP client for Dart, used for making API requests.
+
+  # Image Handling
+  cached_network_image: ^3.3.1  # Flutter library to load and cache network images efficiently.
+
+  # Dependency Injection
+  get_it: ^7.6.0  # A simple Service Locator for Dart and Flutter projects.
+
+  # Functional Programming
+  dartz: ^0.10.1  # Functional programming in Dart with persistent data structures and type classes.
+
+  # Utility
+  equatable: ^2.0.5  # A Dart library defining an abstract class for value-based equality comparisons.
+  flutter_screenutil: ^5.7.0  # Flutter plugin for adapting screen and font size dynamically based on device. Useful for responsive UI design.
+  quick_log: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+assets:
+     - images/a_dot_burr.jpeg
+     - images/a_dot_ham.jpeg
+
